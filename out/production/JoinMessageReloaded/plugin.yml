@@ -1,0 +1,7 @@
+name: JoinMessageReloaded
+version: 1.0
+main: com.leprofi.joinmsgrl.Main
+commands:
+  setjoinmsg:
+    usage: /<command> JoinMessage
+    description: Set the JoinMessage.
