@@ -73,6 +73,12 @@ public class Main extends JavaPlugin implements Listener, CommandExecutor {
             } else {
                 getConfig().set("JoinMessage", args[0]);
             }
+        } else if(cmd.getName().equalsIgnoreCase("setquitmsg")) {
+            if(args.length == 0) {
+                sender.sendMessage(getConfig().getString("Prefix") + " §cError: args.length equals zero. args' minimum is 1");
+            } else {
+                getConfig().set("QuitMessage", args[0]);
+            }
         }
         return true;
     }
