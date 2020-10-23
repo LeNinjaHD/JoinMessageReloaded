@@ -5,3 +5,6 @@ commands:
   setjoinmsg:
     usage: /<command> JoinMessage
     description: Set the JoinMessage.
+  setquitmsg:
+    usage: /<command> QuitMessage
+    description: Set the QuitMessage.
